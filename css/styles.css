@@ -36,8 +36,9 @@ img {
 }
 .container {
   display: flex;
-  max-width: 1440px; /*1158px-з дз, в макеті 1440px;*/
-  /* border-right: 4px solid orangered; */
+  width: 1158px; /*1158px-з дз, в макеті 1440px;*/
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* header */
@@ -50,6 +51,7 @@ img {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -80,6 +82,7 @@ img {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  padding: 24px 0;
 }
 .nav-points:active,
 .nav-points:hover,
@@ -256,16 +259,17 @@ img {
 }
 .footer-style {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-style .container {
   flex-direction: column;
-  gap: 17.5px;
-  padding-top: 101.5px;
-  padding-right: 1020px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  /* gap: 17.5px; */
+  /* padding-right: 1020px;
+  padding-left: 156px; */
 }
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
