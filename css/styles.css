@@ -38,7 +38,8 @@ img {
   display: flex;
   width: 1158px; /*1158px-з дз, в макеті 1440px;*/
   margin: 0 auto;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* header */
