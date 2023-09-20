@@ -35,7 +35,7 @@ img {
   display: block;
 }
 .container {
-  display: flex;
+  /* display: flex; */
   width: 1158px; /*1158px-з дз, в макеті 1440px;*/
   padding: 0 15px; /* автоперевірка дз не бачить цього, чи це має бути в іншому місці? */
   margin: 0 auto;
@@ -43,8 +43,9 @@ img {
 
 /* header */
 .page-header .container {
+  display: flex;
   justify-content: space-between;
-  padding: 24px 156px;
+  /* padding: 24px 156px; */
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -115,6 +116,7 @@ img {
 }
 /* section 1 */
 .main-title-section .container {
+  display: flex;
   gap: 48px;
 }
 .main-title-section {
@@ -169,11 +171,12 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .dscr-list {
   display: flex;
@@ -299,11 +302,8 @@ img {
   /* padding-right: 1020px;
   padding-left: 156px; */
 }
-.footer-style .container .logo-footer {
-  display: inline-block; /* автоперевірка дз не бачить цього, чи це має бути в іншому місці? */
-}
+
 .logo-footer {
-  /* display: inline-block; - пробувала теж тут, не приймає */
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -312,6 +312,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: inline-block;
 }
 .studio-logo-foot {
   color: #f4f4fd;
