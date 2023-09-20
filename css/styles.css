@@ -291,6 +291,7 @@ img {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+  width: 264px;
 }
 .footer-style {
   background-color: #2e2f42;
