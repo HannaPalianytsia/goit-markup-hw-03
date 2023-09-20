@@ -45,7 +45,8 @@ img {
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  /* padding: 24px 156px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
