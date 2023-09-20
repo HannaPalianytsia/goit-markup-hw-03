@@ -115,8 +115,10 @@ img {
 }
 /* section 1 */
 .main-title-section .container {
-  padding: 188px 0;
   gap: 48px;
+}
+.main-title-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -271,8 +273,11 @@ img {
   /* padding-right: 1020px;
   padding-left: 156px; */
 }
-.logo-footer {
+.footer-style .container .logo-footer {
   display: inline-block;
+}
+.logo-footer {
+  /* display: inline-block; */
   margin-bottom: 16px;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
